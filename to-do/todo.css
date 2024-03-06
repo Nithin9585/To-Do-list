@@ -1,0 +1,148 @@
+
+
+
+.inp-text{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* left: 32rem; */
+
+
+}
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+
+h3{
+    text-align: center;
+    color: none;
+    
+}
+
+input {
+    width: 500px;
+    height: 48px;
+    border-radius: 5px;
+    background-color: #C3ACD0;
+    border: 5px solid #C3ACD0; /* Corrected border property */
+    box-shadow: 0;
+    position: relative;
+    left: 1.5rem;
+    border-left: 5px solid #7743DB; /* Corrected border-left property */
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto Mono', monospace;
+    transition: border-color 0.3s ease; 
+}
+
+input:hover {
+    border-color: #7743DB; /* Change border color on hover */
+}
+
+#btn{
+    height: 55px;
+    width: 55px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 1rem 1rem 1rem 1rem;
+
+    margin: 0rem 0rem 0rem 3rem;
+    color: #7743DB;
+
+    border-color: #7743DB;
+}
+#btn:hover{
+    background-color: #7743DB;
+    color: #F7EFE5;
+}
+li{
+
+    font-size: 25px;
+    padding: 10px;
+    padding-top: 10px;
+    margin: 10px;
+    padding-right: 10%;
+
+    
+    background-color:  #C3ACD0;
+    border-radius: 10px;
+    border: 10px #000;
+    width: 400px;
+    /* position: relative; */
+    /* left: 23rem; */
+    font-family: 'Dancing Script', cursive;
+font-family: 'Roboto Mono', monospace;
+
+
+transition: width 0.3s ease; 
+
+}
+li:hover{
+width: 410px;
+height:40px;
+}
+
+h3{
+   
+    color: #7743DB;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+ul button{
+    border-radius: 10px;
+    border: #7743DB;
+    color:white ;
+    background-color: #7743DB;
+    padding: 5PX;
+    
+}
+ul button:hover{
+    background-color: #F7EFE5;
+    color: #7743DB;
+
+}
+*{
+    background-color: #F7EFE5;
+}
+::-webkit-scrollbar {
+    width: 12px; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #7743DB; 
+    border-radius: 1.5px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #C3ACD0;
+  }
+  
+  
+  html {
+    scrollbar-color: #7743DB #C3ACD0; 
+    scrollbar-width: thin; 
+  }
+  
+  
+  body {
+    scrollbar-face-color: #7743DB; 
+    scrollbar-track-color: #C3ACD0; 
+    scrollbar-arrow-color: #000;
+    scrollbar-shadow-color: #fff; 
+    scrollbar-highlight-color: #C3ACD0; 
+    border-radius: 1rem;
+  }
+  
+  
